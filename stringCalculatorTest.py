@@ -9,7 +9,7 @@ class TestStringCalculator(unittest.TestCase):
 
     #tests
     def test_fail_test(self):
-        self.assertFalse(False)
+        self.assertFalse(True)
 
     def test_empty_string(self):
         self.assertEqual(0, Add(""))
@@ -32,6 +32,7 @@ class TestStringCalculator(unittest.TestCase):
     def test_negative_number(self):
         with self.assertRaises(ValueError):
             Add("1,-2,3")
+
 
     
 

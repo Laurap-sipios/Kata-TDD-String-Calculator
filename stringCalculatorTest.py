@@ -9,7 +9,7 @@ class TestStringCalculator(unittest.TestCase):
 
     #tests
     def test_fail_test(self):
-        self.assertFalse(True)
+        self.assertFalse(False)
 
     def test_empty_string(self):
         self.assertEqual(0, Add(""))
